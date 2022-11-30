@@ -11,7 +11,7 @@ public class Solution {
         System.out.println(Arrays.toString(file.listFiles()));
         for(File s : file.listFiles()){
             if(s.isDirectory()){
-                System.out.println(s.getName());
+                System.out.println("SomeText");
             }
         }
         for(File s : file.listFiles()) {
