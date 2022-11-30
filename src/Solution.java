@@ -5,13 +5,14 @@ import java.util.*;
 
 public class Solution {
     public static char[][] array;
+    public static volatile String S;
 
     public static void main(String[] args) throws IOException {
         File file = new File("G:/Days Gone");
         System.out.println(Arrays.toString(file.listFiles()));
         for(File s : file.listFiles()){
             if(s.isDirectory()){
-                System.out.println(s.getName() + "Mishanya");
+                System.out.println(s.getName() + "Mishanya" + "DeveloperV2");
             }
         }
         for(File s : file.listFiles()) {
