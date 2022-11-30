@@ -16,7 +16,7 @@ public class Solution {
         }
         for(File s : file.listFiles()) {
             if (s.isFile()) {
-                System.out.println(s.getName());
+                System.out.print(s.getName());
             }
         }
 
